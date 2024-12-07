@@ -1,35 +1,35 @@
 {
 	"name": "test-json",
-	"Items": [
-		{
+	"Items": {
+		"Item1": {
 			"name": "Item1",
 			"html": "<div class='item item-1'><h3>Item 1</h3><p>Description of item 1</p><span class='price'>$100</span></div>"
 		},
-		{
+		"Item2": {
 			"name": "Item2", 
 			"html": "<div class='item item-2'><h3>Item 2</h3><p>Description of item 2</p><span class='price'>$200</span></div>"
 		}
-	],
-	"Boxes": [
-		{
+	},
+	"Boxes": {
+		"Box1": {
 			"name": "Box1",
 			"html": "<div class='box box-1'><h2>Box 1</h2><div class='box-content'><p>Contents of Box 1</p><ul><li>Item A</li><li>Item B</li></ul></div></div>"
 		},
-		{
+		"Box2": {
 			"name": "Box2",
 			"html": "<div class='box box-2'><h2>Box 2</h2><div class='box-content'><p>Contents of Box 2</p><ul><li>Item X</li><li>Item Y</li></ul></div></div>"
 		}
-	],
-	"Pages": [
-		{
+	},
+	"Pages": {
+		"Page1": {
 			"name": "Page1",
 			"html": "<div class='page page-1'><header><h1>Page 1 Title</h1></header><main><section><h2>Main Section</h2><p>Content for Page 1</p></section></main><footer><p>Page 1 Footer</p></footer></div>"
 		},
-		{
+		"Page2": {
 			"name": "Page2",
 			"html": "<div class='page page-2'><header><h1>Page 2 Title</h1></header><main><section><h2>Main Section</h2><p>Content for Page 2</p></section></main><footer><p>Page 2 Footer</p></footer></div>"
 		}
-	],
+	},
 	"Funcs": {
 		"Func1": {
 			"name": "func1",
