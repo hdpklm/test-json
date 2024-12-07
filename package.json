@@ -1,35 +1,35 @@
 {
 	"name": "test-json",
-	"Items": {
-		"Item1": {
+	"Items": [
+		{
 			"name": "Item1",
-			"html": "<div class='item item-1'><h3>Item 1</h3><p>Description of item 1</p><span class='price'>$100</span></div>"
+			"html": "<div class='bg-gray-100 p-4 rounded-lg shadow-md mb-4 item item-1'><h3 class='text-xl font-bold text-gray-800 mb-2'>Item 1</h3><p class='text-gray-600 mb-2'>Description of item 1</p><span class='text-green-600 font-semibold price'>$100</span></div>"
 		},
-		"Item2": {
+		{
 			"name": "Item2", 
-			"html": "<div class='item item-2'><h3>Item 2</h3><p>Description of item 2</p><span class='price'>$200</span></div>"
+			"html": "<div class='bg-gray-100 p-4 rounded-lg shadow-md mb-4 item item-2'><h3 class='text-xl font-bold text-gray-800 mb-2'>Item 2</h3><p class='text-gray-600 mb-2'>Description of item 2</p><span class='text-green-600 font-semibold price'>$200</span></div>"
 		}
-	},
-	"Boxes": {
-		"Box1": {
+	],
+	"Boxes": [
+		{
 			"name": "Box1",
-			"html": "<div class='box box-1'><h2>Box 1</h2><div class='box-content'><p>Contents of Box 1</p><ul><li>Item A</li><li>Item B</li></ul></div></div>"
+			"html": "<div class='border-2 border-blue-200 rounded-lg p-6 mb-4 box box-1'><h2 class='text-2xl font-bold text-blue-800 mb-4'>Box 1</h2><div class='box-content'><p class='text-gray-700 mb-2'>Contents of Box 1</p><ul class='list-disc list-inside text-gray-600'><li>Item A</li><li>Item B</li></ul></div></div>"
 		},
-		"Box2": {
+		{
 			"name": "Box2",
-			"html": "<div class='box box-2'><h2>Box 2</h2><div class='box-content'><p>Contents of Box 2</p><ul><li>Item X</li><li>Item Y</li></ul></div></div>"
+			"html": "<div class='border-2 border-green-200 rounded-lg p-6 mb-4 box box-2'><h2 class='text-2xl font-bold text-green-800 mb-4'>Box 2</h2><div class='box-content'><p class='text-gray-700 mb-2'>Contents of Box 2</p><ul class='list-disc list-inside text-gray-600'><li>Item X</li><li>Item Y</li></ul></div></div>"
 		}
-	},
-	"Pages": {
-		"Page1": {
+	],
+	"Pages": [
+		{
 			"name": "Page1",
-			"html": "<div class='page page-1'><header><h1>Page 1 Title</h1></header><main><section><h2>Main Section</h2><p>Content for Page 1</p></section></main><footer><p>Page 1 Footer</p></footer></div>"
+			"html": "<div class='max-w-4xl mx-auto bg-white shadow-lg rounded-xl overflow-hidden page page-1'><header class='bg-blue-500 text-white p-6'><h1 class='text-3xl font-bold'>Page 1 Title</h1></header><main class='p-6'><section><h2 class='text-2xl font-semibold text-gray-800 mb-4'>Main Section</h2><p class='text-gray-700'>Content for Page 1</p></section></main><footer class='bg-gray-100 p-4 text-center text-gray-600'><p>Page 1 Footer</p></footer></div>"
 		},
-		"Page2": {
+		{
 			"name": "Page2",
-			"html": "<div class='page page-2'><header><h1>Page 2 Title</h1></header><main><section><h2>Main Section</h2><p>Content for Page 2</p></section></main><footer><p>Page 2 Footer</p></footer></div>"
+			"html": "<div class='max-w-4xl mx-auto bg-white shadow-lg rounded-xl overflow-hidden page page-2'><header class='bg-green-500 text-white p-6'><h1 class='text-3xl font-bold'>Page 2 Title</h1></header><main class='p-6'><section><h2 class='text-2xl font-semibold text-gray-800 mb-4'>Main Section</h2><p class='text-gray-700'>Content for Page 2</p></section></main><footer class='bg-gray-100 p-4 text-center text-gray-600'><p>Page 2 Footer</p></footer></div>"
 		}
-	},
+	],
 	"Funcs": {
 		"Func1": {
 			"name": "func1",
