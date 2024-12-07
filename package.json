@@ -1,38 +1,38 @@
 {
-	"name": "Test-Json",
+	"name": "test-json",
 	"Items": [
 		{
-			"Name": "Item1",
+			"name": "Item1",
 			"Price": 100
 		},
 		{
-			"Name": "Item2",
+			"name": "Item2",
 			"Price": 200
 		}
 	],
 	"Boxes": [
 		{
-			"Name": "Box1",
+			"name": "Box1",
 			"Items": [
 				{
-					"Name": "Item1",
+					"name": "Item1",
 					"Price": 100
 				},
 				{
-					"Name": "Item2",
+					"name": "Item2",
 					"Price": 200
 				}
 			]
 		},
 		{
-			"Name": "Box2",
+			"name": "Box2",
 			"Items": [
 				{
-					"Name": "Item1",
+					"name": "Item1",
 					"Price": 100
 				},
 				{
-					"Name": "Item2",
+					"name": "Item2",
 					"Price": 200
 				}
 			]
@@ -40,30 +40,30 @@
 	],
 	"Pages": [
 		{
-			"Name": "Page1",
+			"name": "Page1",
 			"Boxes": [
 				{
-					"Name": "Box1",
+					"name": "Box1",
 					"Items": [
 						{
-							"Name": "Item1",
+							"name": "Item1",
 							"Price": 100
 						},
 						{
-							"Name": "Item2",
+							"name": "Item2",
 							"Price": 200
 						}
 					]
 				},
 				{
-					"Name": "Box2",
+					"name": "Box2",
 					"Items": [
 						{
-							"Name": "Item1",
+							"name": "Item1",
 							"Price": 100
 						},
 						{
-							"Name": "Item2",
+							"name": "Item2",
 							"Price": 200
 						}
 					]
@@ -71,30 +71,30 @@
 			]
 		},
 		{
-			"Name": "Page2",
+			"name": "Page2",
 			"Boxes": [
 				{
-					"Name": "Box1",
+					"name": "Box1",
 					"Items": [
 						{
-							"Name": "Item1",
+							"name": "Item1",
 							"Price": 100
 						},
 						{
-							"Name": "Item2",
+							"name": "Item2",
 							"Price": 200
 						}
 					]
 				},
 				{
-					"Name": "Box2",
+					"name": "Box2",
 					"Items": [
 						{
-							"Name": "Item1",
+							"name": "Item1",
 							"Price": 100
 						},
 						{
-							"Name": "Item2",
+							"name": "Item2",
 							"Price": 200
 						}
 					]
@@ -103,11 +103,11 @@
 		}
 	],
 	"Funcs": {
-		"Func1": "function() { return 'Func1'; }",
-		"Func2": "function() { return 'Func2'; }"
+		"Func1": {"name": "func1", "func": "function() { return 'Func1'; }",
+		"Func2": {"name": "func2", "func": "function() { return 'Func2'; }"
 	},
 	"Settings": {
-		"Setting1": "Value1",
-		"Setting2": "Value2"
+		"Setting1": {"name": "Setting1", "value": "Value1"},
+		"Setting2": {"name": "Setting2", "value": "Value2"}
 	}
 }
