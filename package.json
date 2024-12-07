@@ -103,8 +103,8 @@
 		}
 	],
 	"Funcs": {
-		"Func1": {"name": "func1", "func": "function() { return 'Func1'; }",
-		"Func2": {"name": "func2", "func": "function() { return 'Func2'; }"
+		"Func1": {"name": "func1", "func": "function() { return 'Func1'; }"},
+		"Func2": {"name": "func2", "func": "function() { return 'Func2'; }"}
 	},
 	"Settings": {
 		"Setting1": {"name": "Setting1", "value": "Value1"},
