@@ -1,0 +1,113 @@
+{
+	"name": "Test-Json",
+	"Items": [
+		{
+			"Name": "Item1",
+			"Price": 100
+		},
+		{
+			"Name": "Item2",
+			"Price": 200
+		}
+	],
+	"Boxes": [
+		{
+			"Name": "Box1",
+			"Items": [
+				{
+					"Name": "Item1",
+					"Price": 100
+				},
+				{
+					"Name": "Item2",
+					"Price": 200
+				}
+			]
+		},
+		{
+			"Name": "Box2",
+			"Items": [
+				{
+					"Name": "Item1",
+					"Price": 100
+				},
+				{
+					"Name": "Item2",
+					"Price": 200
+				}
+			]
+		}
+	],
+	"Pages": [
+		{
+			"Name": "Page1",
+			"Boxes": [
+				{
+					"Name": "Box1",
+					"Items": [
+						{
+							"Name": "Item1",
+							"Price": 100
+						},
+						{
+							"Name": "Item2",
+							"Price": 200
+						}
+					]
+				},
+				{
+					"Name": "Box2",
+					"Items": [
+						{
+							"Name": "Item1",
+							"Price": 100
+						},
+						{
+							"Name": "Item2",
+							"Price": 200
+						}
+					]
+				}
+			]
+		},
+		{
+			"Name": "Page2",
+			"Boxes": [
+				{
+					"Name": "Box1",
+					"Items": [
+						{
+							"Name": "Item1",
+							"Price": 100
+						},
+						{
+							"Name": "Item2",
+							"Price": 200
+						}
+					]
+				},
+				{
+					"Name": "Box2",
+					"Items": [
+						{
+							"Name": "Item1",
+							"Price": 100
+						},
+						{
+							"Name": "Item2",
+							"Price": 200
+						}
+					]
+				}
+			]
+		}
+	],
+	"Funcs": {
+		"Func1": "function() { return 'Func1'; }",
+		"Func2": "function() { return 'Func2'; }"
+	},
+	"Settings": {
+		"Setting1": "Value1",
+		"Setting2": "Value2"
+	}
+}
